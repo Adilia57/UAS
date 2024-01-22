@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LuasLingkaran">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="#050505"
+        android:text="Menghitung Luas Lingkaran"
+        android:textSize="28dp"/>
+
+    <EditText
+        android:id="@+id/edJari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jari-Jari"
+        android:gravity="center"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"/>
+
+    <EditText
+        android:id="@+id/edHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Hasil"/>
+</LinearLayout>
